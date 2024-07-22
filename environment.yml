@@ -1,17 +1,20 @@
-name: voici
+name: test_bqplot_voici
 channels:
-  - https://repo.mamba.pm/emscripten-forge
   - conda-forge
 dependencies:
-  - xeus-python
   - astropy
-  - astropy-iers-data
   - bqplot
   - ipysheet
-  - ipywidgets>=8.0
+  - ipython
+  - ipywidgets
+  - jupyter
+  - jupyterlab
   - matplotlib
-  - numpy>=1.13 
+  - micromamba
+  - numpy
   - pandas
-  - scipy
+  - python
+  - pythreejs
   - traitlets
-  - pythreejs>=1.0.0
+  - voila
+  - voici

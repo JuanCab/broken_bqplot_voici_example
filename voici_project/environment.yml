@@ -1,0 +1,17 @@
+name: voici
+channels:
+  - https://repo.mamba.pm/emscripten-forge
+  - conda-forge
+dependencies:
+  - xeus-python
+  - astropy
+  - astropy-iers-data
+  - bqplot
+  - ipysheet
+  - ipywidgets>=8.0
+  - matplotlib
+  - numpy>=1.13 
+  - pandas
+  - scipy
+  - traitlets
+  - pythreejs>=1.0.0
